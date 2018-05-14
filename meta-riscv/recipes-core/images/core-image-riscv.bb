@@ -27,6 +27,9 @@ IMAGE_INSTALL += "redis python-redis python-cloudpickle python-click python-func
 IMAGE_INSTALL += "python-ray python-flatbuffers"
 IMAGE_INSTALL += ""
 
+# Neuroprocessor stuffs
+IMAGE_INSTALL += "protobuf parallel-neuro-simulation"
+
 IMAGE_LINGUAS = " "
 
 LICENSE = "MIT"
